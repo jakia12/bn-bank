@@ -2439,6 +2439,22 @@ html.show-preloader body {
   }
 }
 @media (max-width: 767.98px) {
+  .tg-btn-1 {
+    display: inline-flex;
+    font-family: var(--tg-heading-font-family);
+    color: var(--tg-common-color-black-2);
+    font-weight: var(--tg-fw-extra-bold);
+    text-transform: uppercase;
+    padding: 14px 49px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    min-width: 177px;
+    z-index: 1;
+  }
   .slider__content .title {
     font-size: 18vw;
     text-shadow: -1px 3px 0px #ffbe18;
